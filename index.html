@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ScrollAlbum — 旅が、1本の線になる。</title>
+<meta name="description" content="旅の写真と動画を横に長い1本の時間軸に並べ、左右にスクロールして振り返るアルバム。地図とスタンプで飾って、BGM付きの動画として書き出せます。">
+<link rel="canonical" href="https://hideto0926.github.io/scrollalbum/">
+<link rel="alternate" hreflang="ja" href="https://hideto0926.github.io/scrollalbum/">
+<link rel="alternate" hreflang="en" href="https://hideto0926.github.io/scrollalbum/en/">
+<link rel="icon" href="assets/icon.png">
+<link rel="apple-touch-icon" href="assets/icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="ScrollAlbum — 旅が、1本の線になる。">
+<meta property="og:description" content="旅の写真と動画を横に長い1本の時間軸へ。地図とスタンプで飾って、BGM付きの動画に書き出せます。">
+<meta property="og:image" content="assets/shots/ja/01.jpg">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <img src="assets/icon.png" alt="">
+      <span>ScrollAlbum</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#features" class="hide-sm">特長</a>
+      <a href="#screens" class="hide-sm">画面</a>
+      <a href="#faq" class="hide-sm">よくある質問</a>
+      <a href="privacy.html">プライバシー</a>
+      <span class="lang">
+        <a href="./" aria-current="true">JA</a>
+        <a href="en/">EN</a>
+      </span>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <img class="hero-icon" src="assets/icon.png" alt="ScrollAlbum のアイコン">
+      <h1>
+        旅が、<br>
+        <span class="mark">1本の線<svg viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path d="M4 13 C 52 4, 96 17, 148 9 S 246 3, 296 12"/></svg></span>になる。
+      </h1>
+      <p class="lead">
+        旅行の写真と動画を、横に長い1本の時間軸へ。左右にスクロールしながら振り返って、
+        最後はBGM付きの動画として書き出せます。
+      </p>
+      <div class="badges">
+        <span class="badge">🗺 地図が道のりを描く</span>
+        <span class="badge">🍔 78種類のスタンプ</span>
+        <span class="badge">🎬 動画に書き出せる</span>
+        <span class="badge">📱 iPhone専用</span>
+      </div>
+      <div class="scroll-cue">
+        <span>スクロールして体験する</span>
+        <span class="arrow">→</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 縦スクロールが横移動になる。アプリの体験そのもの。 -->
+  <section class="timeline" id="screens" aria-label="アプリの画面">
+    <div class="timeline-sticky">
+      <div class="rail">
+        <div class="rail-item"><div class="phone"><img src="assets/raw/01.jpg" alt="写真が時系列に並んだメイン画面" loading="lazy"></div><div class="cap"><small>Timeline</small>横に並ぶ、旅の1日</div></div>
+        <div class="rail-item"><div class="phone"><img src="assets/raw/02.jpg" alt="アルバムの表紙" loading="lazy"></div><div class="cap"><small>Cover</small>旅に、表紙がつく</div></div>
+        <div class="rail-item"><div class="phone"><img src="assets/raw/03.jpg" alt="夜景の写真が並んだ画面" loading="lazy"></div><div class="cap"><small>Auto</small>撮った順に、勝手に並ぶ</div></div>
+        <div class="rail-item"><div class="phone"><img src="assets/raw/04.jpg" alt="星型に切り抜かれた写真とスタンプ" loading="lazy"></div><div class="cap"><small>Shapes</small>写真を、好きな形に</div></div>
+        <div class="rail-item"><div class="phone"><img src="assets/raw/05.jpg" alt="旅の記録として表示された地図" loading="lazy"></div><div class="cap"><small>Maps</small>地図が道のりを描く</div></div>
+        <div class="rail-item"><div class="phone"><img src="assets/raw/06.jpg" alt="タクシーのスタンプが置かれた写真" loading="lazy"></div><div class="cap"><small>Stamps</small>内容に合わせて自動で</div></div>
+        <div class="rail-item"><div class="phone"><img src="assets/raw/07.jpg" alt="スタンプの一覧" loading="lazy"></div><div class="cap"><small>Library</small>78種類から選ぶ</div></div>
+        <div class="rail-item"><div class="phone"><img src="assets/raw/08.jpg" alt="手描きの文字が書き込まれた画面" loading="lazy"></div><div class="cap"><small>Drawing</small>手描きで、ひとこと</div></div>
+        <div class="rail-item"><div class="phone"><img src="assets/raw/09.jpg" alt="BGMの選択画面" loading="lazy"></div><div class="cap"><small>Music</small>BGMを選んで流す</div></div>
+        <div class="rail-item"><div class="phone"><img src="assets/raw/10.jpg" alt="動画書き出しの設定画面" loading="lazy"></div><div class="cap"><small>Export</small>そのまま動画になる</div></div>
+      </div>
+      <div class="rail-progress"><i></i></div>
+    </div>
+  </section>
+
+  <section class="section section--paper" id="features">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Features</div>
+        <h2>撮りっぱなしの写真が、<br>もう一度、旅になる。</h2>
+        <p>期間を選ぶだけで、あとは自動で並びます。飾りつけは自由に。</p>
+      </div>
+
+      <div class="features">
+        <div class="card reveal d1">
+          <div class="ico" style="background:#ffe3d6">📅</div>
+          <h3>期間を選ぶだけ</h3>
+          <p>旅の期間を指定すると、写真ライブラリから写真と動画を集めて時系列に並べます。最初はカメラで撮影したものだけを対象にするので、スクリーンショットが混ざりません。</p>
+        </div>
+        <div class="card reveal d2">
+          <div class="ico" style="background:#d9f0ff">🗺</div>
+          <h3>地図が道のりを描く</h3>
+          <p>位置情報から、訪れた場所に丸い地図や、移動の軌跡をたどるルート地図を自動で配置。旅の最後には国や地域ごとの「旅の記録」が並びます。</p>
+        </div>
+        <div class="card reveal d3">
+          <div class="ico" style="background:#ffeeb8">🍔</div>
+          <h3>78種類のスタンプ</h3>
+          <p>写真の内容や訪れた国に合わせて、同梱スタンプが自動で置かれます。自分の画像からオリジナルスタンプを作ることもできます。</p>
+        </div>
+        <div class="card reveal d1">
+          <div class="ico" style="background:#e6dcff">✂️</div>
+          <h3>飾りつけは自由に</h3>
+          <p>マスキングテープ、傾き、白フチ、楕円・星・六角形の切り抜き。文字、吹き出し、指やApple Pencilで描ける手描きも。</p>
+        </div>
+        <div class="card reveal d2">
+          <div class="ico" style="background:#d8f5d0">🎬</div>
+          <h3>動画に書き出す</h3>
+          <p>横スクロールしていく動画として書き出せます。HD 720p / 1080p / 2K / 4K から選べ、BGMは試聴しながら選択。スクロール速度も調整できます。</p>
+        </div>
+        <div class="card reveal d3">
+          <div class="ico" style="background:#ffd9e4">🔒</div>
+          <h3>写真はそのまま</h3>
+          <p>アプリが写真を削除したり書き換えたりすることはありません。回転やお気に入りの変更は、アプリからも行えます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Screenshots</div>
+        <h2>こんなふうに仕上がります</h2>
+        <p>ドラッグ、または左右の矢印キーで見られます。</p>
+      </div>
+
+      <div class="gallery reveal" data-gallery>
+        <div class="gallery-track" role="region" aria-label="スクリーンショット">
+          <img src="assets/shots/ja/01.jpg" alt="旅が1本の線になる" loading="lazy">
+          <img src="assets/shots/ja/02.jpg" alt="旅に、表紙がつく" loading="lazy">
+          <img src="assets/shots/ja/03.jpg" alt="撮った順に、勝手に並ぶ" loading="lazy">
+          <img src="assets/shots/ja/04.jpg" alt="写真を、好きな形に" loading="lazy">
+          <img src="assets/shots/ja/05.jpg" alt="地図が道のりを描く" loading="lazy">
+          <img src="assets/shots/ja/06.jpg" alt="78種類のスタンプ" loading="lazy">
+          <img src="assets/shots/ja/07.jpg" alt="手描きで、ひとこと" loading="lazy">
+          <img src="assets/shots/ja/08.jpg" alt="BGMを選んで、流す" loading="lazy">
+          <img src="assets/shots/ja/09.jpg" alt="そのまま動画になる" loading="lazy">
+          <img src="assets/shots/ja/10.jpg" alt="旅の数だけ、アルバムを" loading="lazy">
+        </div>
+        <div class="gallery-nav">
+          <button type="button" data-prev aria-label="前へ">←</button>
+          <div class="dots" aria-hidden="true"></div>
+          <button type="button" data-next aria-label="次へ">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--sun">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow" style="color:#7a3b12">How it works</div>
+        <h2>3ステップ</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal d1">
+          <h3>旅の期間を選ぶ</h3>
+          <p>行った日から帰った日までを指定します。あとはアプリが写真ライブラリから集めてきます。</p>
+        </div>
+        <div class="step reveal d2">
+          <h3>横にスクロールして飾る</h3>
+          <p>並んだ写真を眺めながら、スタンプや手描きで自由に飾りつけ。写真の大きさや形も変えられます。</p>
+        </div>
+        <div class="step reveal d3">
+          <h3>動画に書き出す</h3>
+          <p>BGMと解像度を選んで書き出せば完成。そのまま共有できます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper" id="faq">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">FAQ</div>
+        <h2>よくある質問</h2>
+      </div>
+      <div class="faq reveal">
+        <details>
+          <summary>写真が削除されたり、変更されたりしませんか？</summary>
+          <div class="body">いいえ。アプリが写真を削除したり書き換えたりすることはありません。写真ライブラリは読み取りのみで参照しています。回転やお気に入りの変更をしたい場合は、あなたの操作でアプリからも行えます。</div>
+        </details>
+        <details>
+          <summary>最初の取り込みに時間がかかります</summary>
+          <div class="body">iCloudに保存されている画像は、判定のためにダウンロードが必要です。特に初回は枚数によって時間がかかることがあります。通信量と速度のため、Wi-Fi環境でのご利用をおすすめします。</div>
+        </details>
+        <details>
+          <summary>スクリーンショットが並びません</summary>
+          <div class="body">最初はカメラで撮影した写真だけを対象にしています（撮影情報のない画像は除外されます）。必要なものは、あとから手動で追加できます。</div>
+        </details>
+        <details>
+          <summary>広告は消せますか？</summary>
+          <div class="body">はい。スタンプ機能のアンロック（買い切りのApp内課金）をご購入いただくと、広告は表示されなくなります。あわせて、自分の画像からオリジナルスタンプを作る機能が使えるようになります。</div>
+        </details>
+        <details>
+          <summary>iPadやMacでも使えますか？</summary>
+          <div class="body">現在はiPhone専用です。iPad・Mac には対応していません。</div>
+        </details>
+        <details>
+          <summary>写真はどこかへ送信されますか？</summary>
+          <div class="body">写真そのものが開発者のサーバーへ送られることはありません。処理は端末内で行われます。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cta">
+    <div class="wrap">
+      <h2 class="reveal">旅の数だけ、アルバムを。</h2>
+      <p class="reveal d1">ScrollAlbum は App Store にて公開予定です。</p>
+      <p class="reveal d2"><span class="btn is-disabled">App Store で近日公開</span></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <a class="brand" href="./">
+        <img src="assets/icon.png" alt="">
+        <span>ScrollAlbum</span>
+      </a>
+      <div class="footer-links">
+        <a href="privacy.html">プライバシーポリシー</a>
+        <a href="en/">English</a>
+        <a href="https://hideto0926.github.io/" target="_blank" rel="noopener">開発者ページ</a>
+        <a href="mailto:akky0926@gmail.com">お問い合わせ</a>
+      </div>
+    </div>
+    <div class="copy">© 2026 ScrollAlbum. Apple, iPhone, App Store, Apple Pencil は Apple Inc. の商標です。</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
